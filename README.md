@@ -2,7 +2,7 @@
 
 An end-to-end Retrieval-Augmented Generation (RAG) project that demonstrates how to combine retrieval techniques with generative models for enhanced question answering and information retrieval.
 
-# EnD-To-End Architecture
+# End-To-End Architecture
 ![Screenshot 2025-07-07 at 2.15.41 PM.png](Assets/Screenshot%202025-07-07%20at%202.15.41%E2%80%AFPM.png)
 
 ## Project Structure
@@ -35,6 +35,7 @@ Create a `.env` file in the root directory with the following content:
 
 ```plaintext
 OPENAI_API_KEY="your_openai_api_key"
+```
 
 ### Prerequisites
 
