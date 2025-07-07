@@ -25,7 +25,7 @@ End-to-End-RAG/
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.10 or higher
 - Install dependencies:
     ```bash
     pip install -r requirements.txt
@@ -33,24 +33,27 @@ End-to-End-RAG/
 
 ### Usage
 
-1. **Prepare Data:** Add your documents to the `data/sample_documents/` directory.
+1. **Prepare Data:** Add your documents to the `data/news_articles/` directory.
 2. **Run the Pipeline:**
     ```bash
-    python src/main.py --query "Your question here"
+    python app.py
     ```
 
 ## File Overview
 
-- `data/sample_documents/`: Example documents for retrieval.
+- `data/news_articles/`: Example documents for retrieval.
 - `app.py`: Main entry point for the RAG pipeline.
 - `requirements.txt`: Lists required Python packages.
 
 ## Example
 
 ```bash
-python src/main.py --query "What is Retrieval-Augmented Generation?"
+python3 app.py
 ```
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE [LICENSE](LICENSE).
+
+## Contributing
+Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
