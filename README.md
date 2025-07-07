@@ -11,6 +11,10 @@ End-to-End-RAG/
 ├── app.py
 ├── requirements.txt
 └── README.md
+|── .env
+|── LICENSE
+|── CONTRIBUTING.md
+|── EXAMPLES.md
 ```
 
 ## Features
@@ -22,6 +26,12 @@ End-to-End-RAG/
 - **End-to-End Pipeline:** Seamlessly orchestrate the RAG workflow from ingestion to answer generation.
 
 ## Getting Started
+This project provides a complete pipeline for Retrieval-Augmented Generation (RAG) using Python. It includes data ingestion, embedding generation, document retrieval, and answer generation.
+
+Create a `.env` file in the root directory with the following content:
+
+```plaintext
+OPENAI_API_KEY="your_openai_api_key"
 
 ### Prerequisites
 
